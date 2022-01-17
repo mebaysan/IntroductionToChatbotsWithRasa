@@ -2,32 +2,12 @@ version: "3.0"
 
 stories:
 
-- story: greeting
-  steps:
-  - intent: greet
-  - action: utter_greet
-
-- story: say goodbye
-  steps:
-  - intent: goodbye
-  - action: utter_goodbye
-
-- story: ask for time zone long
+- story: asking time zone
   steps:
   - intent: find_time_zone
-  - action: utter_ask_location
+  - action: utter_ask_city_info
   - intent: city_info
-  - action: utter_finding_time_zone
-  - action: action_show_time_zone
+  - action: utter_finding_timezone
+  - action: action_find_timezone
   - intent: thanks
   - action: utter_you_are_welcome
-  - action: utter_goodbye
-
-- story: ask for time zone short
-  steps:
-  - intent: find_time_zone_for_location
-  - action: utter_finding_time_zone
-  - action: action_show_time_zone
-  - intent: thanks
-  - action: utter_you_are_welcome
-  - action: utter_goodbye

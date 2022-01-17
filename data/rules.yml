@@ -6,3 +6,8 @@ rules:
   steps:
   - intent: goodbye
   - action: utter_goodbye
+
+- rule: Greeting anytime the user greets
+  steps:
+  - intent: greet
+  - action: utter_greet

@@ -30,6 +30,7 @@ nlu:
     - bye bye
     - see you later
 
+
 - intent: find_time_zone
   examples: |
     - can you tell me the time?
@@ -38,25 +39,15 @@ nlu:
     - can you find me a timezone?
     - what time is it?
 
-- intent: find_time_zone_for_location
-  examples: |
-    - what is the time zone of [/Europe/London](city)?
-    - time zone of [/Europe/Lisbon](city)
-    - do you know the time zone of [/Europe/Berlin](city)?
-    - i need to know the time zone of [/Europe/Istanbul](city)
-    - what time is in [/Europe/Prague](city)?
-    - what is the time in [/Africa/Johannesburg](city)?
-
-
 - intent: city_info
   examples: |
-    - [/Europe/London](city)
-    - [/Europe/Lisbon](city)
-    - [/America/Toronto](city)
-    - [/America/New_York](city)
-    - [/Africa/Johannesburg](city)
-    - [/Europe/Istanbul](city)
-    - [/Europe/Berlin](city)
+    - [Europe/London](target_timezone)
+    - [Europe/Lisbon](target_timezone)
+    - [America/Toronto](target_timezone)
+    - [America/New_York](target_timezone)
+    - [Africa/Johannesburg](target_timezone)
+    - [Europe/Istanbul](target_timezone)
+    - [Europe/Berlin](target_timezone)
 
 - intent: thanks
   examples: |
