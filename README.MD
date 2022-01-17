@@ -1,5 +1,11 @@
 # Create Chatbot with Rasa & Python
 
+## My Story About This Repo
+
+You can visit the story I wrote about this repo by using the link below.
+
+[Medium Story](https://mebaysan.medium.com/introduction-to-chatbots-with-rasa-python-463d9df058e9)
+
 Framework: https://rasa.com/
 
 Install Rasa on your local `pip install rasa`
